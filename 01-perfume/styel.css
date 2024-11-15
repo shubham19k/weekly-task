@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: rgb(247, 240, 240); */
+    box-sizing: border-box;
+    /* font-weight: 700; */
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.page1{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    background-image: url(perfume1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+header{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.name{
+    width: 30%;
+    
+}
+.name > h1{
+    font-size: 70px;
+    margin-left: 30%;
+    color: darkcyan;
+}
+.about{
+    width: 60%;
+    font-size: 20px;
+    margin-left: 110px;
+    font-weight: 500;
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-around; */
+}
+.about > a{
+    text-decoration: none;
+    color: rgb(177, 252, 252);
+}
+nav > img{
+    width: 50px;
+    margin-right: 100px;
+}
+.about-section{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(168, 84, 247);
+}
+.page2{
+    width: 100%;
+    height: 95vh;
+    margin-top: 70px;
+    background-color: rgba(32, 32, 32, 0.021);
+    position: relative;
+    padding: 0px 100px;
+}
+.page2-left{
+    width: 44%;
+    padding-right: 180px;
+}
+.page2-left > h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(140, 238, 42);
+    font-size: 80px;
+    line-height: 75%;
+}
+.page2-left > h2{
+    font-size: 40px;
+    color: white;
+}
+.page2-left > p{
+    width: 140%;
+    font-size: 15px;
+    color: white;
+    
+}
+.page2-right{
+    width: 55%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    
+}
+.shipping{
+    width: 250px;
+    height: 250px;
+    border: 1px solid bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    
+}
+.shipping >img{
+    width: 80px;
+}
+.shipping >h1{
+    font-size: 20px;
+    color: white;
+}
+
+.support{
+    border-radius: 10px;
+}
+.shipping > a{
+    color: darkgoldenrod;
+}
+.shipping > a >img{
+    width: 11px;
+}
+.details{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column;   */
+    /* background-color: blue; */
+    gap: 20%;
+    color: white;
+}
+.details-section{
+    text-align: center;
+    font-size: 20px;
+}
+.details-section > h1{
+    color: darkgoldenrod;
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    position: relative;
+}
+.page3 > img{
+    width: 67%;
+    /* height: 150%; */
+}
+.rigth-side{
+    width: 50%;
+    /* height: 100%; */
+    position: absolute;
+    top: 120px;
+    right: 0;
+    padding: 20px 0px;
+    background-color: rgba(78, 75, 75, 0.35);
+}
+.page3 > .rigth-side > h1{
+    font-size: 50px;
+    padding-left: 80px;
+    line-height: 110%;
+}
+.page3 > .rigth-side >p{
+    width: 600px;
+    padding-left: 80px;
+    color: white;
+}
+.page3 > .rigth-side >a{
+    padding-left: 80px;
+    line-height: 450%;
+    color: beige;
+}
+.page4{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(79, 79, 83, 0.377);
+    color: white;
+}
+.page4Top-section{
+    width: 100%;
+    /* background-color: rgb(6, 97, 66); */
+    text-align: center;
+    padding-top: 100px;
+    padding: 0px 50px;
+}
+.page4 > .page4Top-section > h1{
+    font-size: 60px;
+    color: rgb(238, 178, 14);
+}
+.page4 > .page4Top-section > h2{
+    font-size: 30px;
+
+}
+.page4Bottum-section{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+.page4Bottum-section .quickPayment{
+    width: 100%;
+}
+.page4Bottum-section .quickPayment p{
+    margin-left: 80px;
+    margin-left: 40px;
+}
+.page5{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.page5 .page5-left{
+    width: 50%;
+    background-color: blue;
+    position: relative;
+
+}
+.page5 .page5-left img{
+    width: 400px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.page5 .page5-rigth{
+    width: 50%;
+    background-color: rgb(225, 0, 255);
+}
+.page5 .page5-rigth img{
+    width: 300px;
+    padding-left: 30px;
+}
+.page5 .heading{
+    line-height: 50px;
+}
+.page5 .page5-left .heading{
+    position: absolute;
+    top: 0;
+    right: 120px;
+    margin-top: 25px;
+}
+.page5 .page5-rigth .heading{
+    position: absolute;
+    top: 0;
+    right: 120px;
+    margin-top: 25px;
+}
+.page5 .heading h4{
+    font-size: 30px;
+    color: black;
+}
+.page5 .heading h1{
+    font-size: 50px;
+    color: white;
+}
+.page5 .heading h1 span{
+    color: black;
+    font-size: 40px;
+    
+
+}
+.page5 .heading button{
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+footer{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(40, 38, 41);
+    padding: 40px 100px;
+}
+.uperdiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.uperdiv > ul > li{
+    font-size: 15px;
+    list-style-type: none;
+    color: rgb(189, 137, 238);
+
+}
+.logo > li >h1{
+    font-size: 50px;
+    color: rgb(116, 116, 14);
+}
+hr{
+    height: 0.50%;
+    /* color: black; */
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.icons img{
+    width: 20px;
+}
+footer >h1{
+    text-align: center;
+    font-size: 19px;
+    color: darkgoldenrod;
+}
